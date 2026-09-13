@@ -1,0 +1,47 @@
+# =========================
+# Virtual environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# PyCharm / IDE files
+# =========================
+.idea/
+*.iml
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+
+# =========================
+# Test files
+# =========================
+test/
+tests/
+checkpoints/
+
+# =========================
+# Python tooling caches
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# OS-generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / packaging files
+# =========================
+build/
+dist/
+*.egg-info/
